@@ -1,10 +1,6 @@
 package learning_swings;
 
-import javax.swing.*;
-import java.awt.*;
-import javax.swing.ImageIcon;
-
-public class main {
+public class JFrame {
 //        void myFrame(){
 //            JFrame jFrame = new JFrame();
 //            jFrame.setTitle("Hospital Billing System");
@@ -20,6 +16,6 @@ public class main {
 //            jFrame.setVisible(true);
 //        }
 public static void main(String[] args) {
-    Myframe myframe = new Myframe();
+    JFrame jFrame = new JFrame();
 }
 }

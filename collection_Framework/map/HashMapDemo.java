@@ -3,7 +3,7 @@ package collection_Framework.map;
 import java.util.HashMap;
 import java.util.Map;
 
-public class HashMapDemp {
+public class HashMapDemo {
 
     public static void main(String[] args) {
         // apple = 25

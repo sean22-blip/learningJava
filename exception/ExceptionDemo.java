@@ -35,7 +35,7 @@ public class ExceptionDemo {
         //     try{        System.out.print("Enter your name: ");
         //     String name = sc.nextLine();
         //     if(!name.matches("[a-zA-Z ]+")){
-        //         System.out.println("Please enter a valid format!!!!");
+        //         System.out.println("Please enter a  valid format!!!!");
         //     }else{
         //         System.out.println("Successfully entered name!");
         //         break;

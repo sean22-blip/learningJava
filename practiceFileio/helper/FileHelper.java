@@ -1,4 +1,4 @@
-package practiceFileIO.helper;
+package practiceFileio.helper;
 
 import java.io.BufferedWriter;
 import java.io.File;

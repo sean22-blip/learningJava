@@ -1,4 +1,4 @@
-package  practiceFileIO.students;
+package  practiceFileio.students;
 public class Student {
 private int id;
 private String name;

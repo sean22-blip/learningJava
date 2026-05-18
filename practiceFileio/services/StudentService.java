@@ -1,7 +1,7 @@
-package practiceFileIO.services;
+package practiceFileio.services;
 
-import practiceFileIO.students.Student;
-import practiceFileIO.helper.FileHelper;
+import practiceFileio.helper.FileHelper;
+import practiceFileio.students.Student;
 
 public class StudentService {
 public void saveStudent(Student student){

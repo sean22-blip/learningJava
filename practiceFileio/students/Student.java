@@ -16,6 +16,10 @@ public String toData(){
     String data = id + "," + name + "," + gender + "," + grade;
     return data;
 }
+public String toInfo(){
+    String text = "ID: " + id + " Name: " + name + " Gender: " + gender + " Grade: " + grade;
+    return text;
+}
 
 public int getId() {
     return id;

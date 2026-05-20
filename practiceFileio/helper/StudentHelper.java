@@ -19,7 +19,6 @@ scanner.nextLine();
 // count++;
 int id = ++count;
 Student student = new Student(id, name, Gender.valueOf(genderInput), grade);
-scanner.close();
 return student;
     }
 

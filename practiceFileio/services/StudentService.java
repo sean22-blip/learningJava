@@ -7,6 +7,7 @@ import practiceFileio.students.Gender;
 import practiceFileio.students.Student;
 
 public class StudentService {
+    //to do seperate method for students
 
     public void saveStudent(Student student) {
         FileHelper.saveToFile(student.toData());

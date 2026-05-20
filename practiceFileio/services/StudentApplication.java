@@ -1,7 +1,6 @@
 package practiceFileio.services;
 
-import java.util.List;
-import practiceFileio.helper.FileHelper;
+import practiceFileio.helper.StudentHelper;
 import practiceFileio.students.Student;
 
 public class StudentApplication {
@@ -12,15 +11,21 @@ public class StudentApplication {
         // studentService.saveStudent(student);
         // studentService.saveStudent(student2);
         // FileHelper.readData();
-        List<String> data = FileHelper.readData();
-        StudentService studentService = new StudentService();
-        List<Student> students = studentService.getAllStudents();
-        for(Student s: students){
-            System.out.println(s.toInfo());
-        }
+        // List<String> data = FileHelper.readData();
+        // StudentService studentService = new StudentService();
+        // List<Student> students = studentService.getAllStudents();
+        // for(Student s: students){
+        //     System.out.println(s.toInfo());
+        // }
         // System.out.println(data);
         // for(String s: data){
             // System.out.println(s);
         // }
+        int numberOfStudents = 2;   
+        for(int i = 0; i < numberOfStudents; i++){
+            Student student = StudentHelper.createStudent();
+            StudentService studentService = new StudentService();
+            studentService.saveStudent(student);
+        }
     }
 }
